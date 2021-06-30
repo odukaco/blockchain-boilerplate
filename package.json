@@ -1,15 +1,24 @@
 {
-  "name": "sf-chain",
+  "name": "blockchain-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "block.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odukaco/blockchain-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odukaco/blockchain-boilerplate/issues"
+  },
+  "homepage": "https://github.com/odukaco/blockchain-boilerplate#readme",
   "devDependencies": {
-    "nodeman": "^1.1.2"
+    "nodemon": "^2.0.8"
   }
 }
